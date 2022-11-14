@@ -2,6 +2,7 @@
 
 import * as readline from "node:readline/promises";
 import ip from "ip";
+import QRCode from "qrcode";
 
 const DEFAULT_PORT = 3000;
 
@@ -14,10 +15,11 @@ const port =
 
 const ipAddress = ip.address();
 
-const url = `https://${ipAddress}:${port}`;
+const url = `http://${ipAddress}:${port}`;
 
-console.log("url", url);
+const QR = await QRCode.toString(url, { type: "terminal" });
 
-// TODO:
-// Create QR
-// Output QR
+console.log(`\nQRCode for ${url}:`);
+console.log(QR);
+
+process.exit();

@@ -16,6 +16,7 @@
   "devDependencies": {
     "@types/ip": "^1.1.0",
     "@types/node": "^18.11.9",
+    "@types/qrcode": "^1.5.0",
     "nodemon": "^2.0.20",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "ip": "^1.1.8",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "qrcode": "^1.5.1"
   }
 }
