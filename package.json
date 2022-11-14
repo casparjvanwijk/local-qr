@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/ip": "^1.1.0",
     "@types/node": "^18.11.9",
     "nodemon": "^2.0.20",
     "rimraf": "^3.0.2",
@@ -21,6 +22,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
+    "ip": "^1.1.8",
     "prompt-sync": "^4.2.0"
   }
 }
