@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "ip": "^1.1.8",
-    "prompt-sync": "^4.2.0",
     "qrcode": "^1.5.1"
   }
 }
